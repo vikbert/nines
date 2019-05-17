@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "lint:md": "lint-md ./docs/",
+    "lint:js": "eslint --fix --ext .js .",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "jest": "^23.6.0",
+    "lint-md": "^0.0.8",
+    "vuepress": "^0.12.0",
+    "vuepress-plugin-rss-support": "^1.0.2"
+  },
+  "dependencies": {
+    "oji": "^3.2.3"
+  }
+}
