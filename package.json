@@ -2,8 +2,8 @@
   "scripts": {
     "lint:md": "lint-md ./docs/",
     "lint:js": "eslint --fix --ext .js .",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

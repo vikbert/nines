@@ -2,7 +2,7 @@
 set -e
 
 ### this will build the md fiels into html static pages, then publish htmls to gh-pages branch
-yarn run docs:build
+yarn run build
 cd docs/.vuepress/dist
 
 git init

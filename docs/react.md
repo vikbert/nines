@@ -2,12 +2,12 @@
 
 <img class="page__header" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" width="200"/>
 
-## Quickstart online (1s)
+## Quickstart online
 
 🔥[**codesandbox**] Start react.js <br>
 <https://codesandbox.io/s/new>
 
-## Quickstart locally (5s)
+## Quickstart locally
 
 ### Install node.js
 
@@ -23,7 +23,7 @@ $ sudo n latest
 
 ```
 
-### Create app and start dev
+### Create-react-app and start dev
 
 ```bash
 # install react cli and create demo proj. "react-demo"
