@@ -6,14 +6,34 @@
 // specific version
 "symfony/yaml": "4.0.2"
 
-//
 ```
 
 ## Commands
 
 ```bash
- # remove  package
- compose remove phpoffice/phpspreadsheet
+# reuqire: the most used command
+composer require zebra/zebra
+# require global
+composer require global zebra/zebra
+composer require global zebra/zebra:2.1.0
+# show all packages name from your project
+composer show
+ # remove package
+composer remove phpoffice/phpspreadsheet
+ # install packages from lock file
+composer install
+# update packages for the lastest version
+composer update -vvv
+composer update zebra/zebra -vvv
+composer global update zebra/zebra -vvv
+# install packages for the stable versions
+composer update --prefer-stable -vvv
+# validate the composer.json with composer.lock
+composer validate
+# do partial updates work
+composer update --dry-run zebar/zebra --with-dependencies
+# Autoloader optimization
+composer install --optimize-autoloader
 ```
 
 ## Tips
