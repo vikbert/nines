@@ -5,7 +5,11 @@
 | Name     | Exampe            | Description                                              |
 | -------- | ----------------- | -------------------------------------------------------- |
 | specific | 1.0.2             | specify the exact version                                |
+<<<<<<< HEAD
 | range    | >=1.0; >1.0, <2.0 | specify the range of versions                            |
+=======
+| ranage   | >=1.0; >1.0, <2.0 | specify the range of versions                            |
+>>>>>>> 9accb1920297c99aea8d6017d2c6cecfabf7e4b2
 | widlcard | 3.4.\*            | specify a pattern with a `*` wildcard                    |
 | tilde    | ~1.2              | specify semantic version, is equivalent to `>=1.2, <2.0` |
 
