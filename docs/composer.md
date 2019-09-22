@@ -2,11 +2,12 @@
 
 ## Understand versions
 
-```json
-// specific version
-"symfony/yaml": "4.0.2"
-
-```
+| Name     | Exampe            | Description                                              |
+| -------- | ----------------- | -------------------------------------------------------- |
+| specific | 1.0.2             | specify the exact version                                |
+| ranage   | >=1.0; >1.0, <2.0 | specify the range of versions                            |
+| widlcard | 3.4.\*            | specify a pattern with a `*` wildcard                    |
+| tilde    | ~1.2              | specify semantic version, is equivalent to `>=1.2, <2.0` |
 
 ## Commands
 
