@@ -1,5 +1,3 @@
-# Start with React in Seconds
-
 <img class="page__header" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" width="200"/>
 
 ## Quickstart online
