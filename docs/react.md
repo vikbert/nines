@@ -30,4 +30,8 @@ $ sudo n latest
 $ npx create-react-app react-demo
 ```
 
-## QuickStart with all-in-one boilerplate
+## Minimal React project starter
+
+```bash
+git clone https://github.com/vikbert/minimal-react-starter.git
+```
