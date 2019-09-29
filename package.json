@@ -3,6 +3,7 @@
     "lint:md": "lint-md ./docs/",
     "lint:js": "eslint --fix --ext .js .",
     "start": "vuepress dev docs",
+    "poststart": "echo \"\\x1b[104m\\x1b[97m\n[ Cleaning build directories ]\n\\x1b[0m\"",
     "build": "vuepress build docs"
   },
   "devDependencies": {
