@@ -38,8 +38,10 @@ check out the minimal react starter project with the following features:
 - production build with `manifest`
 
 ::: tip Repository and live view
-rep <https://github.com/vikbert/minimal-react-starter.git> & live view <https://minimal-react-starter.netlify.com/>
-:::
+
+- github <https://github.com/vikbert/minimal-react-starter.git>
+- live view <https://minimal-react-starter.netlify.com/>
+  :::
 
 ```bash
 git clone https://github.com/vikbert/minimal-react-starter.git

@@ -9,7 +9,7 @@
 | widlcard | 3.4.\*            | specify a pattern with a `*` wildcard                    |
 | tilde    | ~1.2              | specify semantic version, is equivalent to `>=1.2, <2.0` |
 
-## Commands
+## Composer Commands
 
 ```bash
 # reuqire: the most used command
@@ -37,7 +37,7 @@ composer update --dry-run zebar/zebra --with-dependencies
 composer install --optimize-autoloader
 ```
 
-## Tips
+## Composer.json & composer.lock
 
 ::: tip composer.lock
 add always composer.lock to `git` in a application. Without committing the `composer.lock`, you won't get the exact the same set of dependencies.
@@ -79,4 +79,11 @@ Install composer plugin `hirak/prestissimo` which speeds up by downloading them 
 
 ```bash
 composer global require hirak/prestissimo
+```
+
+## Composer global packages
+
+```bash
+ composer global require friendsofphp/php-cs-fixer
+ composer global require squizlabs/php_codesniffer
 ```
