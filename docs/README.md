@@ -1,5 +1,3 @@
-<img class="page__header" src="https://images.unsplash.com/photo-1498084393753-b411b2d26b34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2389&q=80" alt="drawing" width="100%"/>
-
 在各个行业，要想成为技术类的专家，有一个非常重要的条件，就是你可以非常熟练的使用和掌握你使用的技术或者工具。
 比方说，你是一位专业摄影师，那么你需要在不同的光线条件下，能够非常熟练的调整灯光照明的布局和选择最适合现有光线
 的滤镜。作为 IT 技术人员， 这样的要求同样适用。

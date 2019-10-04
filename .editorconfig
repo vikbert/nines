@@ -1,16 +1,25 @@
-# [://editorconfig.org]
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
 root = true
 
+# Unix-style newlines with a newline ending every file
 [*]
-indent_style = space
-indent_size = 2
 end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.md]
-trim_trailing_whitespace = false
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js,json,php,yaml,yml,sh}]
+charset = utf-8
+indent_style = space
+indent_size = 4
 
+# Tab indentation (no size specified)
 [Makefile]
-indent_style = tab
+indent_style = space
+indent_size = 4
+
+[.gitconfig]
+indent_style = space
+indent_size = 4
