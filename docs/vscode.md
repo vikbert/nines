@@ -16,7 +16,7 @@
 
 > my secondary color theme for vscode
 
-## Plugins: Material Icon Theme
+## Plugin: Material Icon Theme
 
 > my favorite icon package for vscode
 
@@ -32,23 +32,23 @@
 
 > code formatter for all languages
 
-## Plugins: setting Sync
+## Plugin: setting Sync
 
 > synchronize the vscode settings
 
-## Plugins: Todo+
+## Plugin: Todo+
 
 > a great todo extension to write todo in vscode
 
-## Plugins: shell-format
+## Plugin: shell-format
 
 > better programming with shell
 
-## Plugins: TS config plugins
+## Plugin: TS config plugin
 
 > `Webpack.config.js` code completition
 
-## Plugins: ES7 React/Redux/GraphQL/React-Native snippets
+## Plugin: ES7 React/Redux/GraphQL/React-Native snippets
 
 code snippets for react, and more.
 
