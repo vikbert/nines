@@ -1,5 +1,21 @@
 # VS code
 
+## vscode for `react`
+
+config `go to definition` in vscode for `reactx` by creating `jsconfig.json` in the root of project with the following content.
+
+```js
+// jsconfig.json
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "js": "react"
+  },
+  "exclude": ["node_modules", "build"]
+}
+```
+
 ## Plugin: Activitus Bar
 
 > use tiny activitus Bar(on the bottom) instead of large `sidebar` on the left.
