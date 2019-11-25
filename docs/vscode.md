@@ -51,3 +51,36 @@
 ## Plugins: ES7 React/Redux/GraphQL/React-Native snippets
 
 code snippets for react, and more.
+
+## Plugin: advanced-new-file
+
+> create a new file anywhere you would like `opt + CMD + N`
+
+## Plugin: auto rename tag
+
+> auto rename tag in html or react
+
+## Plugin: auto close tag
+
+> auto close the HTML tag
+
+## Plugin: htmltagwrap
+
+> wrap any text within html context
+
+## Plugin: IntelliSense for CSS class names in HTML
+
+> code completition by loading all css files in the project
+
+## Plugin: javascript console utils
+
+> Insert and remove console.\* statement in the file:
+> `CMD+shift+L` `CMD+shift+D`
+
+## Plugin: Lorem ipsum
+
+> insert single/mutilple line lorem ipsum text
+
+## Plugin: vscode-styled-components
+
+> great support for `react-styled-components`
