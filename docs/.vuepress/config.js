@@ -21,6 +21,7 @@ module.exports = {
             ["/", "🏠HOME"],
             ["/bulma", " Bulma CSS"],
             ["/react", " React"],
+            ["/vscode", " VS Code"],
             ["/composer", " Composer"],
             ["/docker", " Docker & Docker-Compose"],
             ["/npm", " npm"],
