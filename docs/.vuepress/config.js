@@ -1,30 +1,32 @@
 module.exports = {
-    title: 'Nines',
+    title: "Nines",
     description:
-        'Getting the things done in shortest time 🚀. A absolute must-have guide for lazy developer. ',
+        "Getting the things done in shortest time 🚀. A absolute must-have guide for lazy developer. ",
     head: [
         [
-            'link',
+            "link",
             {
-                rel: 'stylesheet',
+                rel: "stylesheet",
                 href: `https://fonts.googleapis.com/css?family=Major+Mono+Display`
             }
         ]
     ],
     plugins: [],
-    base: '/nines/',
+    base: "/nines/",
     themeConfig: {
-        lastUpdated: 'Last Updated',
-        docsDir: 'docs',
-        nav: [{ text: 'HowTo', link: '/other/howTo' }],
+        lastUpdated: "Last Updated",
+        docsDir: "docs",
+        nav: [{ text: "HowTo", link: "/other/howTo" }],
         sidebar: [
-            ['/', '🏠HOME'],
-            ['/react', ' React'],
-            ['/composer', ' Composer'],
-            ['/docker', ' Docker & Docker-Compose'],
-            ['/npm', ' npm'],
-            ['/github', ' GitHub'],
-            ['/symfony', ' Symfony']
+            ["/", "🏠HOME"],
+            ["/bulma", " Bulma CSS"],
+            ["/react", " React"],
+            ["/composer", " Composer"],
+            ["/docker", " Docker & Docker-Compose"],
+            ["/npm", " npm"],
+            ["/github", " GitHub"],
+            ["/browser", " Browser"],
+            ["/symfony", " Symfony"]
         ]
     }
 };
