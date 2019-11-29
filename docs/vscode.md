@@ -1,5 +1,18 @@
 # VS code
 
+## config `Terminal` in settting.json
+
+```json
+  "terminal.integrated.shell.linux": "/usr/local/bin/fish",
+  "terminal.integrated.fontFamily": "Fira Mono for Powerline, Monaco, 'Courier New', monospace",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontWeightBold": "100",
+  "terminal.explorerKind": "external",
+  "terminal.external.linuxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "100",
+```
+
 ## vscode for `react`
 
 config `go to definition` in vscode for `reactx` by creating `jsconfig.json` in the root of project with the following content.
