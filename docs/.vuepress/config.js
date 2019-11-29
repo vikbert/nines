@@ -25,6 +25,7 @@ module.exports = {
             ["/composer", " Composer"],
             ["/docker", " Docker & Docker-Compose"],
             ["/npm", " npm"],
+            ["/yarn", " Yarn"],
             ["/github", " GitHub"],
             ["/browser", " Browser"],
             ["/symfony", " Symfony"]
