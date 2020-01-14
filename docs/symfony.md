@@ -3,5 +3,24 @@
 </svg>
 
 ## Install CLI and Create project
+### create 
 
-## Start symfony boilerplate
+## How to start Symfony + React as SPA
+
+
+### download the symfony5 docker project
+
+```bash
+docker-compose up -d
+cd symfony
+composer create-project symfony/website-skeleton .  
+```
+### start the web server to host the symfony application
+### remove unused dependencies
+### create a react SPA application
+```bash
+ npx create-react-app spa 
+```
+
+### integrate the react application to symfony application
+### config webpack to deploy the react app to symfony app
