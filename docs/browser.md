@@ -12,17 +12,29 @@ tree structure
 
 <https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?hl=de>
 
-## Plugin: bitwarden- Kostenloser Passwortmanager
+## Plugin: bitwarden - Passwortmanager
+
+secure and synchronize the credentials and passwords in browser.
 
 ## Plugin: React Developer tools
 
+debug and analyse the state of react components in context of react directly in dev-tools. After installation, this extension should detect the react context in dev-tool.
+
 ## Plugin: Redux Dev Tools
 
-## Plugin: Postman
+monitoring the state of redux in chrome-dev-tool
+
+## Plugin: Talent API Tester
+
+light-weight REST API tester. It is simple to use and can export and import pre-defined project with bundled requests.
 
 ## Plugin: AdBlock
 
+classic block tool for all Ad. in the web pages
+
 ## Plugin: Adblock für youtube
+
+block the embedded Ad. in youtube video
 
 ## Plugin: Bookmark sentry
 
@@ -30,28 +42,34 @@ check the duplicated bookmarks
 
 ## Plugin: clear Cache
 
+clear all cache from web browser
+
 ## Plugin: colorZilla
 
-## Plugin: Neater Bookmarks
-
-## Plugin: Noisli
+pick the color from web
 
 ## Plugin: octotree
 
-## Plugin: OneTab
+explore the source tree of github repository from a sidebar
 
 ## Plugin: StyleBot
 
+customize the css for specific web page
+
 ## Plugin: Mobile browser emulator
 
+select the common used mobile screen
+
 ## Plugin: Toggle javascript
+
+toggle ON/OFF javascript in current chrome session
 
 ## Plugin: unblock boundary
 
 ## Plugin: unblock youku
 
+unlock youku, in order to access the video resource only availabe for main land China.
+
 ## Plugin: web developer form filler
 
-# Brave
-
-Another nice browser, which can use the chrome store as well.
+auto form filler
