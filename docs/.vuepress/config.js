@@ -45,6 +45,7 @@ module.exports = {
       ['/github', ' GitHub'],
       ['/images', ' Images'],
       ['/markdown', ' Markdown'],
+      ['/mac', ' Mac'],
       ['/npm', ' node & npm'],
       ['/php', ' php'],
       ['/react', ' React'],
