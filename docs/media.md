@@ -1,3 +1,6 @@
+<div align="center">
+    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/social-media-marketing-2063128-1739406.png" width="80">
+</div>
 # Media
 
 ## youtube-dl

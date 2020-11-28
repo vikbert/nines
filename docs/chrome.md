@@ -1,3 +1,6 @@
+<div align="center">
+    <img style="width: 60px" src="https://www.flaticon.com/svg/static/icons/svg/152/152759.svg">
+</div>
 # Chrome
 
 ## Plugin: tab pinner

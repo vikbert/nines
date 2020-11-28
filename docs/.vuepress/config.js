@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Nines',
-  description: 'Getting the things done in shortest time.',
+  description: 'Nine seconds tech notes',
   head: [
     [
       'link',
       {
         rel: 'stylesheet',
-        href: `https://fonts.googleapis.com/css?family=Major+Mono+Display`,
+        href: ``,
       },
     ],
   ],
@@ -17,18 +17,18 @@ module.exports = {
     docsDir: 'docs',
     nav: [{ text: 'HowTo', link: '/other/howTo' }],
     sidebar: [
-      ['/', '🏠HOME'],
-      ['/bulma', ' Bulma CSS'],
-      ['/react', ' React'],
+      ['/', 'HOME'],
+      ['/github', ' GitHub'],
       ['/vscode', ' VS Code'],
+      ['/symfony', ' Symfony'],
+      ['/react', ' React'],
       ['/composer', ' Composer'],
       ['/docker', ' Docker & Docker-Compose'],
       ['/npm', ' npm'],
       ['/yarn', ' Yarn'],
-      ['/github', ' GitHub'],
-      ['/browser', ' Browser'],
-      ['/symfony', ' Symfony'],
+      ['/chrome', ' Chrome & extension'],
       ['/editorconfig', ' Editorconfig'],
+      ['/bulma', ' Bulma CSS'],
     ],
   },
 };

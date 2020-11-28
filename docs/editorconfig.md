@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://brunolm.files.wordpress.com/2017/01/editorconfig-stickers.png" width="120">
+  <img src="https://brunolm.files.wordpress.com/2017/01/editorconfig-stickers.png" width="80">
 </div>
 
 
