@@ -14,4 +14,5 @@ git commit -m "deploy: github gh-pages $DATE"
 git push -f https://github.com/vikbert/nines.git master:gh-pages
 
 cd -
+gap
 git pull
