@@ -27,7 +27,6 @@ module.exports = {
       ['/yarn', ' Yarn'],
       ['/github', ' GitHub'],
       ['/browser', ' Browser'],
-      ['/image', ' Image Processing'],
       ['/symfony', ' Symfony'],
       ['/editorconfig', ' Editorconfig'],
     ],
