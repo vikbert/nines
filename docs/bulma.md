@@ -1,6 +1,7 @@
 <div align="center">
     <img src="https://seeklogo.com/images/B/bulma-logo-45B5145BF4-seeklogo.com.png" alt="" height="80" />
 </div>
+
 ## Quickstart with CDN
 
 ```bash

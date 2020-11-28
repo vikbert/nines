@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" width="80"/>
+</div>
+
 # VS code
 
 ## Config settting.json

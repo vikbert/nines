@@ -6,7 +6,7 @@ module.exports = {
       'link',
       {
         rel: 'stylesheet',
-        href: ``,
+        href: `https://fonts.googleapis.com/css?family=Major+Mono+Display`,
       },
     ],
   ],
