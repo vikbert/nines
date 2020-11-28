@@ -1,5 +1,5 @@
-在各个行业，要想成为技术类的专家，有一个非常重要的条件，就是你可以非常熟练的使用和掌握你使用的技术或者工具。
-比方说，你是一位专业摄影师，那么你需要在不同的光线条件下，能够非常熟练的调整灯光照明的布局和选择最适合现有光线
-的滤镜。作为 IT 技术人员， 这样的要求同样适用。
+<div align="center">
+  <img src="https://images.unsplash.com/photo-1573561368183-fd88bdb4503d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2928&q=80" width="80%"/>
+</div>
 
-我认为，如果某项技术是我常常使用的，那么我应当知道并且非常熟练的掌握它.
+# Nine seconds tech note
