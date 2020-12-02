@@ -2,7 +2,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/800px-Npm-logo.svg.png" width="80"/>
 </div>
 
-## Install node and npm
+## Manage node and npm
 install npm based `npm manager`
 
 ```bash
@@ -17,7 +17,7 @@ $ sudo n latest
 
 ```
 
-## Dev and deploy your NPM
+## Publish/Deploy your NPM
 ```bash
 # generate the version number before publish
 npm verion major  # generate major version number
@@ -27,4 +27,22 @@ npm version patch  # generate patch version
 # publish to npm repo.
 npm publish --access=public
 ```
+use the `.npmignore` file to ignore the source files, that are not for publish
+```bash
+## .npmignore example
+.gitignore
+.npmignore
+.prettierignore
+.sasslintrc
+.travis.yml
+changelog.md
+composer.json
+package-lock.json
+package.js
+package.json
+test
+deploy.sh
+rollup.config.js
+```
+
 

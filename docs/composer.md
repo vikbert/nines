@@ -102,3 +102,10 @@ upgrade or reinstall composer CLI
  mv composer /usr/local/bin
 ```
 
+## upgrade composer via `symfony` command
+```bash
+ symfony composer self-update 
+```
+
+
+
