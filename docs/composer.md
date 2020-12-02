@@ -89,3 +89,16 @@ composer global require hirak/prestissimo
  composer global require friendsofphp/php-cs-fixer
  composer global require squizlabs/php_codesniffer
 ```
+
+## upgrade composer
+upgrade or reinstall composer CLI
+```bash
+ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
+ php composer-setup.php
+ php -r "unlink('composer-setup.php');"
+ mv composer.phar composer
+ chmod +x composer
+ rm -rf /usr/local/bin/composer
+ mv composer /usr/local/bin
+```
+

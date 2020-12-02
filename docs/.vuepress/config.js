@@ -29,6 +29,7 @@ module.exports = {
       ['/chrome', ' Chrome & extension'],
       ['/editorconfig', ' Editorconfig'],
       ['/bulma', ' Bulma CSS'],
+      ['/markdown', ' Markdown'],
     ],
   },
 };
