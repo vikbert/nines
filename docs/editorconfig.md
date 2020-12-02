@@ -8,12 +8,6 @@
 
 ## My favorite editorconfig
 ```bash
-
-
-##########################################
-# Common Settings
-##########################################
-
 # This file is the top-most EditorConfig file
 root = true
 
