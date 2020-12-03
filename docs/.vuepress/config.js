@@ -9,6 +9,12 @@ module.exports = {
         href: `https://fonts.googleapis.com/css?family=Major+Mono+Display`,
       },
     ],
+    [
+      'script',
+      {
+        src: `https://code.iconify.design/1/1.0.7/iconify.min.js`,
+      },
+    ],
   ],
   plugins: [],
   base: '/nines/',
@@ -30,6 +36,7 @@ module.exports = {
       ['/editorconfig', ' Editorconfig'],
       ['/bulma', ' Bulma CSS'],
       ['/markdown', ' Markdown'],
+      ['/webicon', ' Web Icon'],
     ],
   },
 };
