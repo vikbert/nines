@@ -12,7 +12,7 @@
  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script> 
 ```
 
-2. find the required icon from [iconify]([https://link](https://iconify.design/icon-sets/))
+2. find the required icon from [iconify](https://iconify.design/icon-sets/)
 ```html
  https://iconify.design/icon-sets/ 
 ```

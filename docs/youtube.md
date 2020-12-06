@@ -1,5 +1,5 @@
 <div align="center">
-  <span class="iconify" data-icon="ant-design:youtube-outlined" data-inline="false"></span>
+  <span class="iconify" data-icon="ant-design:youtube-outlined" data-inline="false" width="100"></span>
 </div>
 
 ---
@@ -15,4 +15,4 @@ select the mp3 audi file, and drag the file to the open video in `quicktime play
 > Quicktime Player: Ablage => exportieren als
 
 ####  Create the thumbnail for the youtube video
-[canva thumbnail creator]([https://link](https://www.canva.com/design/DAEPiupV_KA/Dwi7PEYyp1tqWRYdkO86-A/edit?utm_source=onboarding#))
+[canva thumbnail creator](https://www.canva.com/folder/all-designs)
