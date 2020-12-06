@@ -37,6 +37,7 @@ module.exports = {
       ['/bulma', ' Bulma CSS'],
       ['/markdown', ' Markdown'],
       ['/webicon', ' Web Icon'],
+      ['/youtube', ' YouTube'],
     ],
   },
 };
