@@ -1,30 +1,23 @@
 <div align="center">
-    <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width="80">
+    <span class="iconify" data-icon="cib:docker" data-inline="false" width="120"></span>
 </div>
 
 
-## Useful Commands
+## Favorite Commands
 
 more read on <https://towardsdatascience.com/15-docker-commands-you-should-know-970ea5203421>
 
 ```bash
 # CONTAINER
-docker container ps
-docker container logs
-docker container stop {__container_name__}
-docker container start {__container_name__}
-docker container run -i -z -p 1000:1000 --rm my_docker_image
 # kill all running containers
 docker container kill $(docker ps -q)
 # delete one or more containers
-docker container rm {__my_container__}
-# 🔥delete all containers that are not running🔥
 docker container rm $(docker ps -a -q)
 
 # IMAGE
 docker image ls
 docker image rm -f {__image_id__}
-# 🔥remove all images. careful with this one 🔥
+# remove all images. careful with this one 
 docker image rm $(docker images -a -q)
 # build a docker image named my_image
 docker image build -t my_repo/my_image:my_tag .
@@ -36,7 +29,7 @@ docker image inspect my_image
 # CLEAN UP
 # clean up all unused containers, networks, and dangling images
 docker system prune
-# 🔥delete all unused images, not just dangling ones🔥
+# delete all unused images, not just dangling ones
 docker system prune -a
 ```
 
