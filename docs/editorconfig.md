@@ -24,15 +24,15 @@ trim_trailing_whitespace = true
 ##########################################
 
 # XML Configuration Files
-[*.{xml,config,props,targets,nuspec,resx,ruleset,vsixmanifest,vsct}]
+[*.{xml, config, props, targets, nuspec, resx, ruleset, vsixmanifest, vsct}]
 indent_size = 2
 
 # JSON Files
-[*.{json,json5,webmanifest}]
+[*.{json, json5, webmanifest}]
 indent_size = 2
 
 # YAML Files
-[*.{yml,yaml}]
+[*.{yml, yaml}]
 indent_size = 2
 
 # Markdown Files
@@ -40,19 +40,15 @@ indent_size = 2
 trim_trailing_whitespace = false
 
 # Web Files
-[*.{htm,html,css,sass,scss,less,svg}]
+[*.{htm, html, css, sass, scss, less, svg}]
 indent_size = 2
 
 # javascripts Files
-[*.{js,jsm,ts,tsx,vue,svelte}]
+[*.{js, jsm, ts, tsx, vue, svelte}]
 indent_size = 2
 
-# PHP Files
-[*.{php}]
-indent_size = 4
-
 # Batch Files
-[*.{cmd,bat}]
+[*.{cmd, bat}]
 end_of_line = crlf
 
 # Bash Files
@@ -62,6 +58,5 @@ end_of_line = lf
 # Makefiles
 [Makefile]
 indent_style = tab
-
 
 ```
