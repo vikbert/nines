@@ -2,17 +2,19 @@
     <span class="iconify" data-icon="bytesize:github" data-inline="false" width="100"></span>
 </div>
 
-## Create a GitHub Repository via `CLI`
+<h2> Table of content </h2>
 
-**create local repo**
+[[toc]]
+
+
+## Create GitHub Repository via CLI `hub`
+
+**install `hub` cli**
 
 ```bash
- mkdir myDemoRepo
- cd myDemoRepo
- git init
- touch README.md
- git add .
- git commit 'init commit'
+ brew install hub
+ hub --help
+ # enter the github `user` and `password`
 ```
 
 **push local repo to remote github**
@@ -22,11 +24,31 @@ hub create myDemoRepo
 git push --set-upstream origin master
 ```
 
-**install `hub` command tools**
 
+## Create GitHub `Oauth2` App
+First of all, create the `Oauth2 app` in the github account to get the `clientID` and `clientSecret`. 
+
+To do this, go to `github.com` and select `setting` => `developer settings` => `OAuth Apps` => `New OAuth App`.
+
+
+![](./img/github-oauth2.png)
+
+
+## Create GitHub pages
+create the static pages under `https://vikbert.github.io/🔥new-blog🔥`
+
+**create the repository on GitHub**
 ```bash
- brew install hub
- hub --help
- hub api
- # enter the github `user` and `password`
+https://github.com/vikbert/new-blog.git
 ```
+
+**push the local repository to gh-pages**
+```bash
+git push -f https://github.com/vikbert/new-blog.git master:gh-pages 
+```
+
+::: tip
+Sub page URL: [https://vikbert.github.io/new-blog](#)
+:::
+
+

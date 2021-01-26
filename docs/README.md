@@ -1,11 +1,11 @@
 <div align="center">
   <span class="iconify" data-icon="whh:ninegag" data-inline="false" width="100"></span>
-  <h1>Nines</h1>
-  <p>My minimal technical Notes</p>
+  <h1>NineS</h1>
+  <p>my 9 seconds technical notes</p>
 </div>
 
 ---
 
-## Motto for `Nines`
-- Note can be read as fast as possible within 9 seconds
-- Note contains max. 9 subitems
+#### Motto for `Nines`
+- Note can be read withtin <code>10</code> seconds
+- Notes hat not more than <code>10</code> sub items
