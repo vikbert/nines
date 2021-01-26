@@ -10,7 +10,7 @@ more read on <https://towardsdatascience.com/15-docker-commands-you-should-know-
 ```bash
 # CONTAINER
 # kill all running containers
-docker container kill $(docker ps -q)
+docker container kill $(docker ps -q)$$
 # delete one or more containers
 docker container rm $(docker ps -a -q)
 
@@ -19,7 +19,7 @@ docker image ls
 docker image rm -f {__image_id__}
 # remove all images. careful with this one 
 docker image rm $(docker images -a -q)
-# build a docker image named my_image
+# build a docker image named my_image$$
 docker image build -t my_repo/my_image:my_tag .
 # push an image to a registry
 docker image push my_repo/my_image:my_tag

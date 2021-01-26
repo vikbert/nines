@@ -17,7 +17,7 @@ $ sudo n latest
 
 ```
 
-## Publish/Deploy your NPM
+## Publish/Deploy NPM package
 ```bash
 # generate the version number before publish
 npm verion major  # generate major version number
@@ -43,6 +43,11 @@ package.json
 test
 deploy.sh
 rollup.config.js
+```
+
+## Unpublish the version
+```bash
+ npm unpublish pixss@3.0.0 
 ```
 
 
