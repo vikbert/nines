@@ -6,6 +6,6 @@
 
 ---
 
-#### Motto for `Nines`
+#### Motto for `NineS`
 - Note can be read within <code>10</code> seconds
 - Note has not more than <code>10</code> sub items
