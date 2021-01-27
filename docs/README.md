@@ -1,7 +1,7 @@
 <div align="center">
   <span class="iconify" data-icon="whh:ninegag" data-inline="false" width="100"></span>
   <h1>NineS</h1>
-  <p>9-seconds technical notes</p>
+  <p>9-seconds mini note</p>
 </div>
 
 ---
