@@ -2,7 +2,11 @@
     <img style="width: 60px" src="https://www.flaticon.com/svg/static/icons/svg/152/152759.svg">
 </div>
 
-# Chrome
+<h3>table of content</h3>
+
+[[toc]]
+
+# Favorite extensions
 
 ## Plugin: tab pinner
 

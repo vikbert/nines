@@ -4,8 +4,11 @@
 
 ---
 
+<h3>table of content</h3>
 
-## Use web icon via `iconify` API
+[[toc]]
+
+## Use `iconify` as `script`
 
 1. insert the `script` block to the index page or template
 ```html
@@ -23,7 +26,7 @@
  <span class="iconify" data-icon="fa-solid:icons" data-inline="false"></span> 
 ```
 
-## Add `iconify` to `vuepress`
+## Use `iconify` in `vuepress`
 ```js
  // config.js
    head: [

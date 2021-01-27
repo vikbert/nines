@@ -2,6 +2,11 @@
     <img src="https://seeklogo.com/images/B/bulma-logo-45B5145BF4-seeklogo.com.png" alt="" height="80" />
 </div>
 
+
+<h3>table of content</h3>
+
+[[toc]]
+
 ## Quickstart with CDN
 
 ```bash
@@ -45,5 +50,3 @@ Use the index.html template to start development with bulma
 ```bash
  npm install bulma
 ```
-
-## How to

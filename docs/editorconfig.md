@@ -2,11 +2,13 @@
   <img src="https://brunolm.files.wordpress.com/2017/01/editorconfig-stickers.png" width="80">
 </div>
 
-# .editorconfig
+<h3>table of content</h3>
+
+[[toc]]
+
+## My `.editorconfig`
 `EditorConfig` helps developers define and maintain `consistent coding styles` between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to the defined styles.
 
-
-## My favorite editorconfig
 ```bash
 # This file is the top-most EditorConfig file
 root = true

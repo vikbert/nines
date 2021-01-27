@@ -2,6 +2,10 @@
     <img class="page__header" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo-composer-transparent.png" width="80"/>
 </div>
 
+<h3>table of content</h3>
+
+[[toc]]
+
 ## Understand versions
 
 | Name     | Exampe            | Description                                              |
@@ -83,14 +87,14 @@ Install composer plugin `hirak/prestissimo` which speeds up by downloading them 
 composer global require hirak/prestissimo
 ```
 
-## Composer global packages
+## Favorite global packages
 
 ```bash
  composer global require friendsofphp/php-cs-fixer
  composer global require squizlabs/php_codesniffer
 ```
 
-## upgrade composer
+## How to upgrade
 upgrade or reinstall composer CLI
 ```bash
  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" 
@@ -100,10 +104,9 @@ upgrade or reinstall composer CLI
  chmod +x composer
  rm -rf /usr/local/bin/composer
  mv composer /usr/local/bin
-```
 
-## upgrade composer via `symfony` command
-```bash
+
+ # update via symfony
  symfony composer self-update 
 ```
 
