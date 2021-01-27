@@ -2,34 +2,81 @@
   <img src="https://cdn.iconscout.com/icon/free/png-256/react-2336950-1982831.png" width="80"/>
 </div>
 
-## Quickstart online
 
-🔥[**codesandbox**] Start react.js <br>
-<https://codesandbox.io/s/new>
+<h3> Table of content</h3>
 
+[[toc]]
 
-### Create-react-app and start dev
+## Start Online
+[codesandbox: react.js :link: ](https://codesandbox.io/s/new)
+
+## `create-react-app` CLI
 
 ```bash
-# install react cli and create demo proj. "react-demo"
-$ npx create-react-app react-demo
+npx create-react-app react-demo
 ```
 
-## Minimal React project starter
+## Minimal Starter
 
 check out the minimal react starter project with the following features:
 
-- DEV server with `hot-reloader`
-- `Eslint` extends airbnb
-- support `style-loader` & `css-loader`
-- production build with `manifest`
+- `hot-reloader`
+- `Eslint`
+- `style-loader` 
+- `css-loader`
+- `manifest`
 
 ::: tip Repository and live view
 
-- github <https://github.com/vikbert/minimal-react-starter.git>
-- live view <https://minimal-react-starter.netlify.com/>
+- GitHub :link: <https://github.com/vikbert/minimal-react-starter.git>
+- Demo :link: <https://minimal-react-starter.netlify.com/>
   :::
 
 ```bash
 git clone https://github.com/vikbert/minimal-react-starter.git
 ```
+
+## React in Symfony
+add react packages
+```bash
+ yarn add --dev react react-dom @babel/preset-react
+```
+remove line in `webpack.config.js`
+```bash
+  // .splitEntryChunks() 
+```
+disable line in `webpack.config.js`
+```bash
+ .disableSingleRuntimeChunk() 
+```
+
+enable line in `webpack.config.js`
+```bash
+ .enableReactPreset()
+```
+
+update `app.js`
+```js
+import '../css/app.css';
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+const App = () => {
+    return <h1>react works!</h1>
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'));
+```
+
+rebuild the react Component and remove the cache and refresh symfony server
+```bash
+yarn dev
+```
+
+`react works!` should be displayed on the homepage.
+
+
+
+
+
