@@ -6,6 +6,15 @@
 
 [[toc]]
 
+## Create GitHub Package Icons
+generate the package icons via <https://shields.io/>
+
+Examples:
+
+- ![](https://img.shields.io/badge/Label-HelloWorld-brightgreen)
+- ![](https://img.shields.io/badge/Label-HelloWorld-blue)
+- ![](https://img.shields.io/badge/Label-HelloWorld-orange)
+
 
 ## Create GitHub Repository via CLI `hub`
 
