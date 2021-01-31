@@ -29,28 +29,36 @@
 ## Install PHP via `brew`
 ```bash
 brew install php@7.4
+
 ==> Summary
 🍺  /usr/local/Cellar/php@7.4/7.4.14_1: 497 files, 72.2MB
 ```
 
 
-## switch PHP version
+## Switch PHP version
 first of all, check the list of all installed php versions and current version
 
 ```bash
-➜ ls -al /usr/local/etc/php/
-total 0
-drwxr-xr-x   6 zhoux  admin  192 Jan 31 17:22 .
-drwxrwxr-x  21 zhoux  admin  672 Jan 31 17:22 ..
-drwxr-xr-x  10 zhoux  admin  320 Sep 16 09:51 7.2
-drwxr-xr-x   9 zhoux  admin  288 Jan 31 17:18 7.3
-drwxr-xr-x   8 zhoux  admin  256 Nov 18 20:51 7.4
-drwxr-xr-x   7 zhoux  admin  224 Jan 31 17:22 8.0 
+$ ls -al /usr/local/etc/php/
+$ ls -al /usr/local/opt/ | grep php
 
-➜ php -v
+lrwxr-xr-x    1 zhoux  admin    21 Jan 31 19:17 php -> ../Cellar/php/8.0.1_1
+lrwxr-xr-x    1 zhoux  admin    26 Jan 31 18:08 php@7.2 -> ../Cellar/php@7.2/7.2.34_1
+lrwxr-xr-x    1 zhoux  admin    26 Jan 31 19:16 php@7.3 -> ../Cellar/php@7.3/7.3.26_1
+lrwxr-xr-x    1 zhoux  admin    26 Jan 31 19:17 php@7.4 -> ../Cellar/php@7.4/7.4.14_1
+lrwxr-xr-x    1 zhoux  admin    21 Jan 31 19:17 php@8.0 -> ../Cellar/php/8.0.1_1
+
+$ php -v
+
 PHP 8.0.1 (cli) (built: Jan  8 2021 09:07:02) ( NTS )
-
 ```
+then, create command alias to switch php via `brew link`
+```bash
+alias php74 'brew unlink php && brew link --overwrite --force php@7.4'
+alias php80 'brew unlink php && brew link --overwrite --force php@8.0' 
+```
+
+at last, type `php80` or `php74` to switch php
 
 
 
