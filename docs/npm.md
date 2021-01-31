@@ -1,12 +1,14 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/800px-Npm-logo.svg.png" width="80"/>
+  <span class="iconify" data-icon="fa-brands:node" data-inline="false" width="100"></span>
+  <br>
+  <span class="iconify" data-icon="ion:logo-npm" data-inline="false" width="100"></span>
 </div>
 
 <h3>table of content</h3>
 
 [[toc]]
 
-## Manage node and npm
+## Manage the versions of `node`
 install npm based `npm manager`
 
 ```bash
@@ -16,9 +18,15 @@ $ brew install npm
 $ npm install -g n
 # show current node version, if installed previously
 $ n
-# install latestest node
-$ sudo n latest
+# install newest LTS node version
+$ sudo n lts
 
+# select the version
+$ sudo n
+
+sh-3.2# n
+   installed : v14.15.4 to /usr/local/bin/node
+      active : v12.10.0 at /usr/local/Cellar/node/12.10.0/bin/node
 ```
 
 ## Publish/Deploy NPM package

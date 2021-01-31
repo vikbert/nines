@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://seeklogo.com/images/B/bulma-logo-45B5145BF4-seeklogo.com.png" alt="" height="80" />
+    <span class="iconify" data-icon="mdi:bulma" data-inline="false" width="100"></span>
 </div>
 
 

@@ -1,5 +1,5 @@
 <div align="center">
-    <img style="width: 60px" src="https://www.flaticon.com/svg/static/icons/svg/152/152759.svg">
+    <span class="iconify" data-icon="ri:chrome-line" data-inline="false" width="100"></span>
 </div>
 
 <h3>table of content</h3>

@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-512.png" width="80">
+    <span class="iconify" data-icon="logos:markdown" data-inline="false" width="100"></span>
 </div>
 
 <h3>table of content</h3>

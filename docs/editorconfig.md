@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://brunolm.files.wordpress.com/2017/01/editorconfig-stickers.png" width="80">
+  <span class="iconify" data-icon="vscode-icons:file-type-editorconfig" data-inline="false" width="100"></span>
 </div>
 
 <h3>table of content</h3>

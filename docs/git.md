@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://cdn.iconscout.com/icon/free/png-256/git-225996.png" width="80">
+<span class="iconify" data-icon="cib:git" data-inline="false" width="100"></span>
 </div>
 
 ---

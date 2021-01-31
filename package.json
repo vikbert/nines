@@ -13,9 +13,9 @@
         "eslint": "^5.12.1",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-plugin-import": "^2.15.0",
-        "jest": "^23.6.0",
+        "jest": "^26.6.3",
         "lint-md": "^0.0.8",
-        "vuepress": "^0.12.0",
+        "vuepress": "^1.8.0",
         "vuepress-plugin-rss-support": "^1.0.2"
     },
     "dependencies": {

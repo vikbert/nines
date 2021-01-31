@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.iconscout.com/icon/free/png-256/symfony-282493.png" width="80"/>
+  <span class="iconify" data-icon="logos:symfony" data-inline="false" width="100"></span>
 </div>
 
 <h3>table of content</h3>

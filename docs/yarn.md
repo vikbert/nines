@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://iconape.com/wp-content/files/ub/352181/png/yarn-logo.png" width="80"/>
+  <span class="iconify" data-icon="la:yarn" data-inline="false" width="100"></span>
 </div>
 
 <h3>table of content</h3>

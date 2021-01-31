@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.iconscout.com/icon/free/png-256/react-2336950-1982831.png" width="80"/>
+  <span class="iconify" data-icon="fa-brands:react" data-inline="false" width="100"></span>
 </div>
 
 

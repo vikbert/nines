@@ -1,5 +1,5 @@
 <div align="center">
-    <img class="page__header" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo-composer-transparent.png" width="80"/>
+    <span class="iconify" data-icon="cib:composer" data-inline="false" width="100"></span>
 </div>
 
 <h3>table of content</h3>
