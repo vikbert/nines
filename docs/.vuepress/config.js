@@ -43,7 +43,7 @@ module.exports = {
       ['/git', ' Git'],
       ['/github', ' GitHub'],
       ['/markdown', ' Markdown'],
-      ['/npm', ' npm'],
+      ['/npm', ' node & npm'],
       ['/php', ' php'],
       ['/react', ' React'],
       ['/symfony', ' Symfony'],
