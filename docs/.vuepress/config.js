@@ -42,6 +42,7 @@ module.exports = {
       ['/editorconfig', ' Editorconfig'],
       ['/git', ' Git'],
       ['/github', ' GitHub'],
+      ['/images', ' Images'],
       ['/markdown', ' Markdown'],
       ['/npm', ' node & npm'],
       ['/php', ' php'],
