@@ -15,10 +15,10 @@ resize a image or images matched by expression
 sips -Z 250 *.jpg
 
 // resize the image and reduce the quality of images
-sips -s formatOptions 80 *.jpg
+sips -s formatOptions 25 *.jpg
 
 // convert all PNG files to JPEG format: png => jpeg
-sips -s format jpeg -s *.png
+sips -s format jpeg -s formatOptions 25 *.png
 ```
 
 ## video to GIF image
