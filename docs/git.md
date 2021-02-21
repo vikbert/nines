@@ -20,3 +20,25 @@ git push -f
 # or
 git push origin master
 ```
+
+## update the ref for remote
+```bash
+git remote update --prune 
+```
+
+## show remote branch with author name
+```bash
+git for-each-ref --sort=committerdate --format='%(committerdate) %09 %(authorname) %09 %(refname)' refs/remotes 
+```
+
+## delete remote branch
+```bash
+git push origin --delete feature/branch-name
+```
+
+## push local branch to remote
+```bash
+git push -u origin feature/branch-name 
+```
+
+
