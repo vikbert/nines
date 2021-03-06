@@ -40,6 +40,7 @@ module.exports = {
       ['/composer', ' Composer'],
       ['/docker', ' Docker & Docker-Compose'],
       ['/editorconfig', ' Editorconfig'],
+      ['/firebase', ' Firebase'],
       ['/git', ' Git'],
       ['/github', ' GitHub'],
       ['/images', ' Images'],
@@ -52,6 +53,7 @@ module.exports = {
       ['/youtube', ' YouTube'],
       ['/vscode', ' VS Code'],
       ['/webicon', ' Web Icon'],
+      ['/shortcut', ' Shortcut'],
     ],
   },
 };

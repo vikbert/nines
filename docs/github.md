@@ -59,3 +59,33 @@ Examples:
 ![](https://img.shields.io/badge/Label-HelloWorld-blue) 
 ![](https://img.shields.io/badge/Label-HelloWorld-orange) 
 
+## sync forked repository
+### fork the project on github
+```bash
+https://github.com/andreia/awesome-symfony.git 
+```
+
+### clone the forked on local
+```bash
+git clone https://github.com/vikbert/awesome-symfony.git 
+```
+
+### add remote from original repository your forked repo
+```bash
+cd awesome-symfony/
+git remote add upstream https://github.com/andreia/awesome-symfony.git
+git fetch upstream master
+```
+### updating your fork from original
+```bash
+git pull upstream master 
+```
+
+## Create awesome project
+```bash
+npm install -g yo generator-awesome-list
+ 
+```
+
+
+
