@@ -62,3 +62,27 @@ end_of_line = lf
 indent_style = tab
 
 ```
+
+
+## Symfony 5 config
+```bash
+; top-most EditorConfig file
+root = true
+
+; Unix-style newlines
+[*]
+charset = utf-8
+end_of_line = LF
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{php,html,twig}]
+indent_style = space
+indent_size = 4
+
+[*.md]
+max_line_length = 80
+
+[COMMIT_EDITMSG]
+max_line_length = 0 
+```
