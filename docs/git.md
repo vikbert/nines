@@ -8,6 +8,12 @@
 
 [[toc]]
 
+## change the date of last commit
+```bash
+git commit --amend --no-edit --date "Sun 170 Jan 2021 20:19:19 BST"
+git push
+```
+
 
 ## remove `node_modules` from `git`
 ```bash
