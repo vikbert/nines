@@ -69,3 +69,9 @@ yd "http://url_your_youtbue"
 cf -h 
 ```
 
+## `mkfile` create the file with given size
+```bash
+mkfile 2m test.pdf 
+```
+
+
