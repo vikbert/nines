@@ -72,6 +72,7 @@ cf -h
 ## `mkfile` create the file with given size
 ```bash
 mkfile 2m test.pdf 
+mkfile 2g a_very_large.pdf 
 ```
 
 
