@@ -34,3 +34,15 @@ youtube-dl --version
 ```bash
  youtube-dl "https://www.youtube.com/watch?v=mV8N-V8F9j8" 
 ```
+## youtube channel for web development
+- Traversy Media
+- FreeCodeCamp
+- The Coding Train
+- Dev Ed
+- The Net Ninja
+- Web Dev Simplified
+- Academind
+- Florin Pop
+- Fireship
+- Programming with Mosh
+ 
