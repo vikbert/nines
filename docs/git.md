@@ -15,7 +15,7 @@ git push
 ```
 
 
-## remove `node_modules` from `git`
+## remove `node_modules` from `git` cache
 ```bash
 echo '**/node_modules' >> .gitignore
 git rm -r --cached node_modules
@@ -45,6 +45,15 @@ git push origin --delete feature/branch-name
 ## push local branch to remote
 ```bash
 git push -u origin feature/branch-name 
+```
+
+## multiple remote repository / refers
+```bash
+# list the remote refers
+git remote -v
+# add the 2.nd remote refer to the origin
+git remote set-url --push --add origin https://github.com/SchwarzIT/siam-oauth2-bundle.git
+git push # will trigger to push the changes to multiple remote refers
 ```
 
 
