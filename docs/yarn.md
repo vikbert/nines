@@ -16,3 +16,17 @@
 yarn clean cache
 yarn install -f
 ```
+
+## Error handling
+```bash
+yarn add v1.22.10
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+error Couldn't find package "react" on the "npm" registry.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command
+
+```
+### delete the registry for cleaning up
+```bash
+npm config delete registry 
+```

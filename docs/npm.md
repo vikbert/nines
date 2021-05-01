@@ -60,4 +60,15 @@ rollup.config.js
  npm unpublish pixss@3.0.0 
 ```
 
+## Error handling
+```bash
+Couldn't find package “react” on the “npm” registry when creating a package
+
+```
+### delete the registry for cleaning up
+```bash
+npm config delete registry 
+```
+
+
 
