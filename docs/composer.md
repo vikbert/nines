@@ -5,6 +5,13 @@
 <h3>table of content</h3>
 
 [[toc]]
+## downgrade or upgrade composer
+```bash
+composer self-update --1 # downgrade to version 1
+composer self-update --rollback  # rollback to version 2
+composer self-update 1.10.12 # downgrade to specific version
+composer self-update 2.0.7 # upgrade to specific version
+```
 
 ## Understand versions
 
