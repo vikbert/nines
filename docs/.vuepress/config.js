@@ -43,6 +43,7 @@ module.exports = {
       ['/firebase', ' Firebase'],
       ['/git', ' Git'],
       ['/github', ' GitHub'],
+      ['/heroku', ' Heroku'],
       ['/images', ' Images'],
       ['/markdown', ' Markdown'],
       ['/mac', ' Mac'],
