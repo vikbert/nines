@@ -20,3 +20,8 @@ composer req apache-pack
 ```
 > this package will add `public/.htaccess`, so that heroku can handle the routing correctly
 
+## Resources
+
+Heroku Url Rewrites
+
+<https://devcenter.heroku.com/articles/deploying-symfony4#url-rewrites>
