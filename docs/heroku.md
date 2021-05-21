@@ -12,7 +12,7 @@
 ### step 1: config `Procfile`
 ```yaml
 # add "Procfile" to the project root folder with the following content
-web: vendor/bin/heroku-php-apache2 public/ 
+web: $(composer config bin-dir)/heroku-php-apache2 public/
 ```
 ### step 1: package `apache-pack`
 ```bash
