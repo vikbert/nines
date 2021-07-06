@@ -16,8 +16,8 @@ $ brew install npm
 $ npm install -g n
 # show current node version, if installed previously
 $ n
-# install newest LTS node version
 $ sudo n lts
+$ sudo n 13.12.0
 
 # select the version
 $ sudo n

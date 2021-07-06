@@ -19,6 +19,7 @@
         "vuepress-plugin-rss-support": "^1.0.2"
     },
     "dependencies": {
+        "native-toast": "^2.0.0",
         "oji": "^3.2.3"
     }
 }

@@ -16,25 +16,45 @@
 npx create-react-app react-demo
 ```
 
-## Minimal Starter
-
-check out the minimal react starter project with the following features:
-
-- `hot-reloader`
-- `Eslint`
-- `style-loader` 
-- `css-loader`
-- `manifest`
-
-::: tip Repository and live view
-
-- GitHub :link: <https://github.com/vikbert/minimal-react-starter.git>
-- Demo :link: <https://minimal-react-starter.netlify.com/>
-  :::
-
+## Tweet, notification, snackbar
 ```bash
-git clone https://github.com/vikbert/minimal-react-starter.git
+npm i native-toast 
 ```
+add a hook
+```js
+import nativeToast, {ToastOptions} from 'native-toast';
+
+const useToast = () => {
+  const notify = (options) => {
+    nativeToast({
+      type: options.type,
+      message: options.message,
+      position: 'north',
+      timeout: 3000,
+      edge: true,
+    });
+  };
+
+  return notify;
+};
+
+export default useToast;
+```
+use the hook to show the toast message
+```js
+// import this css in the main component
+import 'native-toast/dist/native-toast.css';
+
+// use the toast hook
+const notify = useToast();
+notify({type: 'success', message: 'hello, world!'});
+  
+```
+
+
+
+
+
 
 ## React in Symfony
 add react packages
