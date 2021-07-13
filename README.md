@@ -1,9 +1,36 @@
+<div align="center">
+  <img src="docs/img/nines.png" />
+  <h3>Nine Seconds</h3>
+  <p>Short, but only the really useful tech notes</p>
+
+  <p>
+    <a href="#">
+      <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
+    </a>
+  </p>
+</div>
+
 ---
-home: false
-footer: MIT Licensed | Copyright © 2019-present
----
 
-### About the Daily Notes
+## Install
+```bash
+npm install 
+```
 
-I read oft the tech news on（[Hacker News](https://news.ycombinator.com/)、[Medium](https://medium.com/)、[Dev.to](https://dev.to/)、[阮一峰](http://www.ruanyifeng.com/blog/)、[GitHub](https://github.com/)、、[V2EX](https://www.v2ex.com/)、[GitHub Trending](https://github.com/trending)、[DEVURLS](https://devurls.com/)、[Hashnode](https://hashnode.com/)、[React Status](https://react.statuscode.com/)）and so on to get things updated. Sometimes I collect the things which might be useful and can be read later again and agin.
 
+## Development
+```bash
+npm run start
+```
+
+## Build
+```bash
+bash deploy.sh
+```
+
+## licence
+
+[MIT](./LICENSE) License © 2021 [@vikbert](https://vikbert.github.io/)
