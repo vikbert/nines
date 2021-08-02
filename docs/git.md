@@ -8,13 +8,6 @@
 
 [[toc]]
 
-## change the date of last commit
-```bash
-git commit --amend --no-edit --date "Sun 17 Jan 2021 20:19:19 BST"
-git push
-```
-
-
 ## remove `node_modules` from `git` cache
 ```bash
 echo '**/node_modules' >> .gitignore
@@ -56,4 +49,8 @@ git remote set-url --push --add origin https://github.com/SchwarzIT/siam-oauth2-
 git push # will trigger to push the changes to multiple remote refers
 ```
 
-
+## change the date of last commit
+```bash
+git commit --amend --no-edit --date "Sun 17 Jan 2021 20:19:19 BST"
+git push
+```
