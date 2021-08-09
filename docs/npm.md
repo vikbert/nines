@@ -18,6 +18,7 @@ $ npm install -g n
 $ n
 $ sudo n lts
 $ sudo n 13.12.0
+# if install not possible, try to click "d" to delete the installed version, then install the new one
 
 # select the version
 $ sudo n
