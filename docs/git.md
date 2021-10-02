@@ -52,5 +52,7 @@ git push # will trigger to push the changes to multiple remote refers
 ## change the date of last commit
 ```bash
 git commit --amend --no-edit --date "Sun 17 Jan 2021 20:19:19 BST"
+# or change the author and the date
+git commit --amend --no-edit --author="vikbert <segentor@gmail.com>" --date "Fr 26 July 2021 20:19:19 BST"
 git push
 ```
