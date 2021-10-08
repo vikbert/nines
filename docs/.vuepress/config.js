@@ -45,6 +45,7 @@ module.exports = {
       ['/github', ' GitHub'],
       ['/heroku', ' Heroku'],
       ['/images', ' Images'],
+      ['/linux', ' Linux'],
       ['/markdown', ' Markdown'],
       ['/mac', ' Mac'],
       ['/npm', ' node & npm'],
