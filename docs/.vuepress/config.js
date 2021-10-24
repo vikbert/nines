@@ -52,6 +52,7 @@ module.exports = {
       ['/php', ' php'],
       ['/react', ' React'],
       ['/symfony', ' Symfony'],
+      ['/ssh', ' SSH'],
       ['/yarn', ' Yarn'],
       ['/youtube', ' YouTube'],
       ['/vscode', ' VS Code'],
