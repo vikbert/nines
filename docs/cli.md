@@ -75,4 +75,14 @@ mkfile 2m test.pdf
 mkfile 2g a_very_large.pdf 
 ```
 
+## `psysh` for PHP 
+A runtime developer console, interactive debugger and REPL for PHP.
+
+```bash
+$ brew update && brew install composer
+$ composer global require psy/psysh
+$ psysh 
+```
+
+
 
