@@ -23,6 +23,11 @@ hub create myDemoRepo
 git push --set-upstream origin master
 ```
 
+**delete remote repository**
+Go to `https://github.com/settings/tokens` and activate the option named `delete_repo` in the access_token used by `hub` CLI, then `update token`.
+```bash
+hub delete vikbert/myDemoRepo
+```
 
 ## Create `Oauth2` App
 First of all, create the `Oauth2 app` in the github account to get the `clientID` and `clientSecret`. 
@@ -58,34 +63,3 @@ Examples:
 ![](https://img.shields.io/badge/Label-HelloWorld-brightgreen) 
 ![](https://img.shields.io/badge/Label-HelloWorld-blue) 
 ![](https://img.shields.io/badge/Label-HelloWorld-orange) 
-
-## sync forked repository
-### fork the project on github
-```bash
-https://github.com/andreia/awesome-symfony.git 
-```
-
-### clone the forked on local
-```bash
-git clone https://github.com/vikbert/awesome-symfony.git 
-```
-
-### add remote from original repository your forked repo
-```bash
-cd awesome-symfony/
-git remote add upstream https://github.com/andreia/awesome-symfony.git
-git fetch upstream master
-```
-### updating your fork from original
-```bash
-git pull upstream master 
-```
-
-## Create awesome project
-```bash
-npm install -g yo generator-awesome-list
- 
-```
-
-
-
