@@ -34,7 +34,7 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'HOME'],
-      ['/bulma', ' Bulma CSS'],
+      // ['/bulma', ' Bulma CSS'],
       ['/chrome', ' Chrome & extension'],
       ['/cli', ' Command Line Tool'],
       ['/composer', ' Composer'],
@@ -51,13 +51,13 @@ module.exports = {
       ['/npm', ' node & npm'],
       ['/php', ' php'],
       ['/react', ' React'],
+      ['/shortcut', ' Shortcut'],
       ['/symfony', ' Symfony'],
       ['/ssh', ' SSH'],
       ['/yarn', ' Yarn'],
       ['/youtube', ' YouTube'],
       ['/vscode', ' VS Code'],
       ['/webicon', ' Web Icon'],
-      ['/shortcut', ' Shortcut'],
     ],
   },
 };

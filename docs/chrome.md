@@ -8,19 +8,19 @@
 
 # Favorite extensions
 
-## Plugin: tab pinner
+## Plugin: tab pinner ⭐️⭐️⭐️⭐️
 
 add the short cut to pin an active tab with `CMD+shift+x`
 <https://chrome.google.com/webstore/detail/tab-pinner-keyboard-short/mbcjcnomlakhkechnbhmfjhnnllpbmlh>
 
-## Plugin: JSON Editor
+## Plugin: JSON Editor ⭐️⭐️⭐️⭐️⭐️
 
 Awesome json editor for offline. It validate the json format and show the data in a
 tree structure
 
 <https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj?hl=de>
 
-## Plugin: bitwarden - Passwortmanager
+## Plugin: bitwarden  ⭐️⭐️⭐️⭐️⭐️
 
 secure and synchronize the credentials and passwords in browser.
 
@@ -36,11 +36,11 @@ monitoring the state of redux in chrome-dev-tool
 
 light-weight REST API tester. It is simple to use and can export and import pre-defined project with bundled requests.
 
-## Plugin: AdBlock
+## Plugin: AdBlock ⭐️⭐️⭐️⭐️⭐️
 
 classic block tool for all Ad. in the web pages
 
-## Plugin: Adblock für youtube
+## Plugin: Adblock für youtube ⭐️⭐️⭐️⭐️⭐️
 
 block the embedded Ad. in youtube video
 
@@ -48,19 +48,15 @@ block the embedded Ad. in youtube video
 
 check the duplicated bookmarks
 
-## Plugin: clear Cache
-
-clear all cache from web browser
-
 ## Plugin: colorZilla
 
 pick the color from web
 
-## Plugin: octotree
+## Plugin: octotree ⭐️⭐️⭐️⭐️⭐️
 
 explore the source tree of github repository from a sidebar
 
-## Plugin: StyleBot
+## Plugin: StyleBot ⭐️⭐️⭐️⭐️⭐️
 
 customize the css for specific web page
 
@@ -72,8 +68,6 @@ select the common used mobile screen
 
 toggle ON/OFF javascript in current chrome session
 
-## Plugin: unblock boundary
-
 ## Plugin: unblock youku
 
 unlock youku, in order to access the video resource only availabe for main land China.
@@ -81,3 +75,9 @@ unlock youku, in order to access the video resource only availabe for main land 
 ## Plugin: web developer form filler
 
 auto form filler
+
+## YouTube Auto HD ⭐️⭐️⭐️⭐️⭐️
+auto switch youtube video to HD format
+
+## Read Aloud ⭐️⭐️⭐️⭐️⭐️
+auto text to speech for lazy reader
