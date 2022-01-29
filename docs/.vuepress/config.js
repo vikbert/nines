@@ -39,6 +39,7 @@ module.exports = {
       ['/cli', ' Command Line Tool'],
       ['/composer', ' Composer'],
       ['/docker', ' Docker & Docker-Compose'],
+      ['/efficient_work', ' Efficient Work'],
       ['/editorconfig', ' Editorconfig'],
       ['/firebase', ' Firebase'],
       ['/git', ' Git'],
