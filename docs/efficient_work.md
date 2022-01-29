@@ -1,5 +1,5 @@
 <div align="center">
-    <span class="iconify" data-icon="cib:composer" data-inline="false" width="100"></span>
+    <span class="iconify" data-icon="gg:time" width="100"></span>
 </div>
 
 <h3>table of content</h3>
@@ -18,7 +18,7 @@
 - set ground rules for every activity
 - experiment/learn/adapt
   
-  
+
 
 
 
