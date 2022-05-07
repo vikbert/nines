@@ -46,3 +46,15 @@ youtube-dl --version
 - Fireship
 - Programming with Mosh
  
+ ## youtube to mp3
+ ### download youtube to mp3
+ <https://mp3y.download/de/audio-easy-converter-youtube>
+
+### CLI `youtube-dl` 
+```bash
+## download playlist
+youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" playlist_URL 
+
+## download single mp3
+youtube-dl -x --audio-format mp3 -o "%(title)s.%(ext)s" video_URL
+```

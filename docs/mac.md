@@ -15,3 +15,13 @@ sudo spctl --master-disable
 # enable the master, you will be notified, and you are not able to open the app that is downloaded from internet
 sudo spctl --master-enable 
 ```
+
+## screenshot
+```bash
+## size: 680KB
+defaults write com.apple.screencapture type jpg
+
+## size: 3.4MB
+defaults write com.apple.screencapture type png
+```
+
