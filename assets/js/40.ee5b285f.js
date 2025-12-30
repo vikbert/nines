@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[40],{346:function(t,n,e){"use strict";e.r(n);var o={mounted(){window.location.href=document.querySelector("ul.sidebar-links > li:nth-child(1) > a")}},l=e(28),s=Object(l.a)(o,(function(){return(0,this._self._c)("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}})}),[],!1,null,null,null);n.default=s.exports}}]);
